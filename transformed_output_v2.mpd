@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" type="static" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-live:2011" mediaPresentationDuration="PT188S">
+  <Period id="0" duration="PT30S">
+	<BaseURL>http://dash.edgesuite.net/dash264/TestCases/1b/thomson-networks/1/</BaseURL>
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720" maxFrameRate="25" par="16:9">
+      <SegmentTemplate duration="2" startNumber="23821645" media="video_$Number$_$Bandwidth$bps.mp4" initialization="video_$Bandwidth$bps.mp4"></SegmentTemplate>
+      <Representation id="v0" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="4000000" />
+      <Representation id="v1" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="2500000" />
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="fr" segmentAlignment="true" startWithSAP="1">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+      <SegmentTemplate duration="2" startNumber="23821645" media="audio_$Number$_$Bandwidth$bps_Input_2.mp4" initialization="audio_$Bandwidth$bps_Input_2.mp4"></SegmentTemplate>
+      <Representation id="a2" bandwidth="96000" />
+    </AdaptationSet>
+  </Period>
+  <Period id="1" duration="PT60S">
+	<BaseURL>https://demo.cf.castlabs.com/media/prestodash/</BaseURL>
+    <AdaptationSet id="1" segmentAlignment="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1" startWithSAP="1" bitstreamSwitching="true" mimeType="video/mp4" par="16:9" frameRate="30000/1001" sar="1:1" minWidth="320" maxWidth="1920" minHeight="180" maxHeight="1080" minBandwidth="327500" maxBandwidth="3576000">
+	  <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+	  <Representation codecs="avc1.4d400d" width="320" height="180" id="prestoplay_384.mp4" bandwidth="327500">
+		<BaseURL>prestoplay_384.mp4</BaseURL>
+		<SegmentBase timescale="30000" indexRangeExact="true" indexRange="749-972">
+		  <Initialization range="0-748"/>
+		</SegmentBase>
+	  </Representation>
+	  <Representation codecs="avc1.4d4015" width="480" height="270" id="prestoplay_700.mp4" bandwidth="578300">
+		<BaseURL>prestoplay_700.mp4</BaseURL>
+		<SegmentBase timescale="30000" indexRangeExact="true" indexRange="749-972">
+		  <Initialization range="0-748"/>
+		</SegmentBase>
+	  </Representation>
+	  <Representation codecs="avc1.4d401f" width="800" height="450" id="prestoplay_1300.mp4" bandwidth="1060200">
+		<BaseURL>prestoplay_1300.mp4</BaseURL>
+		<SegmentBase timescale="30000" indexRangeExact="true" indexRange="750-973">
+		  <Initialization range="0-749"/>
+		</SegmentBase>
+	  </Representation>
+	  <Representation codecs="avc1.4d401f" width="960" height="540" id="prestoplay_1500.mp4" bandwidth="1239000">
+		<BaseURL>prestoplay_1500.mp4</BaseURL>
+		<SegmentBase timescale="30000" indexRangeExact="true" indexRange="749-972">
+		  <Initialization range="0-748"/>
+		</SegmentBase>
+	  </Representation>
+	  <Representation codecs="avc1.4d401f" width="1280" height="720" id="prestoplay_3500.mp4" bandwidth="2404000">
+		<BaseURL>prestoplay_3500.mp4</BaseURL>
+		<SegmentBase timescale="30000" indexRangeExact="true" indexRange="749-972">
+		  <Initialization range="0-748"/>
+		</SegmentBase>
+	  </Representation>
+	  <Representation codecs="avc1.4d4028" width="1920" height="1080" id="prestoplay_5000.mp4" bandwidth="3576000">
+		<BaseURL>prestoplay_5000.mp4</BaseURL>
+		<SegmentBase timescale="30000" indexRangeExact="true" indexRange="750-973">
+		  <Initialization range="0-749"/>
+		</SegmentBase>
+	  </Representation>
+	</AdaptationSet>
+	<AdaptationSet segmentAlignment="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1" startWithSAP="1" bitstreamSwitching="true" mimeType="audio/mp4" lang="eng">
+	  <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+	  <Representation codecs="mp4a.40.2" audioSamplingRate="48000" id="prestoplay_audio.mp4" bandwidth="127800">
+		<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+		<BaseURL>prestoplay_audio.mp4</BaseURL>
+		<SegmentBase timescale="48000" indexRangeExact="true" indexRange="656-867">
+		  <Initialization range="0-655"/>
+		</SegmentBase>
+	  </Representation>
+	</AdaptationSet>
+  </Period>
+  <Period id="2" duration="PT98S">
+    <BaseURL>http://dash.edgesuite.net/dash264/TestCases/1b/thomson-networks/1/</BaseURL>
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1280" maxHeight="720" maxFrameRate="25" par="16:9">
+      <SegmentTemplate duration="2" startNumber="23821645" media="video_$Number$_$Bandwidth$bps.mp4" initialization="video_$Bandwidth$bps.mp4"></SegmentTemplate>
+      <Representation id="v0" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="4000000" />
+      <Representation id="v1" codecs="avc3.4d401f" width="1280" height="720" scanType="progressive" frameRate="25" sar="1:1" bandwidth="2500000" />
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="fr" segmentAlignment="true" startWithSAP="1">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+      <SegmentTemplate duration="2" startNumber="23821645" media="audio_$Number$_$Bandwidth$bps_Input_2.mp4" initialization="audio_$Bandwidth$bps_Input_2.mp4"></SegmentTemplate>
+      <Representation id="a2" bandwidth="96000" />
+    </AdaptationSet>
+  </Period>
+</MPD>
