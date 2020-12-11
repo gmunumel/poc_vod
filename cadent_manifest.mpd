@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--Created with VSPP Streamer version 7.0.1.0 build  Commit_id: c041f62eb44e91bbd3fcee4bbe654596a87d85c3 Commit_time: 1602402330 context 3452467670857812890-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT30S" minBufferTime="PT2.006S">
+    <Period>
+        <AdaptationSet id="1" group="1" bitstreamSwitching="true" segmentAlignment="true" contentType="video" mimeType="video/mp4" maxWidth="1920" maxHeight="1080" par="16:9" maxFrameRate="50" startWithSAP="1">
+            <SegmentTemplate timescale="10000000" media="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(video=$Time$)" initialization="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(video=Init)">
+                <SegmentTimeline>
+                    <S d="20000000" r="14"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="dzEdNwaf" bandwidth="407325" codecs="avc1.42e00d" width="400" height="224" frameRate="25" sar="224:225"/>
+            <Representation id="dzFqYgyf" bandwidth="811626" codecs="avc1.42e01e" width="640" height="360" frameRate="25" sar="1:1"/>
+            <Representation id="dzGvGhGf" bandwidth="1120943" codecs="avc1.4d401e" width="704" height="396" frameRate="25" sar="1:1"/>
+            <Representation id="dzFX4hif" bandwidth="1630807" codecs="avc1.4d401f" width="1024" height="576" frameRate="25" sar="1:1"/>
+            <Representation id="dzFGSiuf" bandwidth="2837062" codecs="avc1.4d401f" width="1280" height="720" frameRate="25" sar="1:1"/>
+            <Representation id="dzGdqkWf" bandwidth="4565661" codecs="avc1.4d4020" width="1280" height="720" frameRate="50" sar="1:1"/>
+            <Representation id="dzEfCGyf" bandwidth="7079967" codecs="avc1.64002a" width="1920" height="1080" frameRate="50" sar="1:1"/>
+        </AdaptationSet>
+        <AdaptationSet id="2" group="2" bitstreamSwitching="true" segmentAlignment="true" contentType="audio" mimeType="audio/mp4" lang="und">
+            <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+            <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+            <SegmentTemplate timescale="48000" media="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(audio_482_und=$Time$)" initialization="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(audio_482_und=Init)">
+                <SegmentTimeline>
+                    <S t="3519" d="93184"/>
+                    <S d="96256"/>
+                    <S d="95232"/>
+                    <S d="96256" r="2"/>
+                    <S d="95232"/>
+                    <S d="96256" r="2"/>
+                    <S d="95232"/>
+                    <S d="96256" r="2"/>
+                    <S d="95232"/>
+                </SegmentTimeline>
+            </SegmentTemplate>
+            <Representation id="dyHiAZ8." bandwidth="128000" codecs="mp4a.40.2" audioSamplingRate="48000"/>
+        </AdaptationSet>
+    </Period>
+</MPD>
