@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<vmap:VMAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:telnetext="http://timewarnercable.com/namespace/dai/iab/extensions" xmlns:vmap="http://www.iab.net/vmap-1.0" version="1.0" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+	<vmap:AdBreak breakId="2" breakType="linear" timeOffset="start">
+		<vmap:AdSource id="BA-SYSTEM" followRedirects="false" allowMultipleAds="true">
+			<vmap:VASTAdData>
+				<VAST xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+					<Ad id="da5dd8e7-3f02-11eb-8f64-005056a5b5c3">
+						<InLine>
+							<AdSystem>BA-ADS</AdSystem>
+							<AdTitle>sbsbelgium.be/SBS-C0783012</AdTitle>
+							<Error>
+								<![CDATA[https://impressions.avod.yelo.sup.telenet-ops.be/tracking/errorlog?idt=COMMSCOPE_MDC&msgRef=da5a2f57-3f02-11eb-8f64-005056a5b5c3&sess=da59e134-3f02-11eb-8f64-005056a5b5c3&ct=BA-ADS%7D%3A%7B032l2K4j8CEeuhyABQVqW1ww&aid=SBS-C0783012&cpid=sbsbelgium.be&ec=[ERROR_CODE]&em=[ERROR_MESSAGE]&ruri=http%3A%2F%2F195.162.211.34%2Fsdash%2FSBS-C068238%2Findex.mpd%2FManifest%3Fdevice%3DDASH_ALL_PLAIN]]>
+							</Error>
+							<Impression>
+								<![CDATA[https://impressions.avod.yelo.sup.telenet-ops.be/tracking/psn?idt=COMMSCOPE_MDC&msgRef=da5a2f57-3f02-11eb-8f64-005056a5b5c3&sess=da59e134-3f02-11eb-8f64-005056a5b5c3&ct=BA-ADS%7D%3A%7B032l2K4j8CEeuhyABQVqW1ww&aid=SBS-C0783012&cpid=sbsbelgium.be&type=startPlacement&status=[STATUS]&note=[NOTE]&prog=[NPT]&msgId=[MESSAGE_ID]&dur=PT30S]]>
+							</Impression>
+							<Creatives>
+								<Creative AdID="sbsbelgium.be^SBS-C0783012">
+									<Linear>
+										<Duration>00:00:30</Duration>
+										<MediaFiles>
+											<MediaFile delivery="streaming" type="application/dash+xml" width="0" height="0">
+												<![CDATA[http://195.162.211.34/sdash/SBS-C068238/index.mpd/Manifest?device=DASH_ALL_PLAIN]]>
+											</MediaFile>
+										</MediaFiles>
+									</Linear>
+								</Creative>
+							</Creatives>
+						</InLine>
+					</Ad>
+				</VAST>
+			</vmap:VASTAdData>
+		</vmap:AdSource>
+		<vmap:Extensions>
+			<vmap:Extension type="application/xml">
+				<telnetext:AdBreakDuration>00:00:00.000</telnetext:AdBreakDuration>
+			</vmap:Extension>
+		</vmap:Extensions>
+	</vmap:AdBreak>
+	<vmap:AdBreak breakId="4" breakType="linear" timeOffset="end">
+		<vmap:AdSource id="BA-SYSTEM" followRedirects="false" allowMultipleAds="true">
+			<vmap:VASTAdData>
+				<VAST xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+					<Ad id="da5dd8e9-3f02-11eb-8f64-005056a5b5c3">
+						<InLine>
+							<AdSystem>BA-ADS</AdSystem>
+							<AdTitle>sbsbelgium.be/SBS-C0783012</AdTitle>
+							<Error>
+								<![CDATA[https://impressions.avod.yelo.sup.telenet-ops.be/tracking/errorlog?idt=COMMSCOPE_MDC&msgRef=da5a2f57-3f02-11eb-8f64-005056a5b5c3&sess=da59e134-3f02-11eb-8f64-005056a5b5c3&ct=BA-ADS%7D%3A%7B032l2K4z8CEeuhyABQVqW1ww&aid=SBS-C0783012&cpid=sbsbelgium.be&ec=[ERROR_CODE]&em=[ERROR_MESSAGE]&ruri=http%3A%2F%2F195.162.211.34%2Fsdash%2FSBS-C068238%2Findex.mpd%2FManifest%3Fdevice%3DDASH_ALL_PLAIN]]>
+							</Error>
+							<Impression>
+								<![CDATA[https://impressions.avod.yelo.sup.telenet-ops.be/tracking/psn?idt=COMMSCOPE_MDC&msgRef=da5a2f57-3f02-11eb-8f64-005056a5b5c3&sess=da59e134-3f02-11eb-8f64-005056a5b5c3&ct=BA-ADS%7D%3A%7B032l2K4z8CEeuhyABQVqW1ww&aid=SBS-C0783012&cpid=sbsbelgium.be&type=startPlacement&status=[STATUS]&note=[NOTE]&prog=[NPT]&msgId=[MESSAGE_ID]&dur=PT30S]]>
+							</Impression>
+							<Creatives>
+								<Creative AdID="sbsbelgium.be^SBS-C0783012">
+									<Linear>
+										<Duration>00:00:30</Duration>
+										<MediaFiles>
+											<MediaFile delivery="streaming" type="application/dash+xml" width="0" height="0">
+												<![CDATA[http://195.162.211.34/sdash/SBS-C068238/index.mpd/Manifest?device=DASH_ALL_PLAIN]]>
+											</MediaFile>
+										</MediaFiles>
+									</Linear>
+								</Creative>
+							</Creatives>
+						</InLine>
+					</Ad>
+				</VAST>
+			</vmap:VASTAdData>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+</vmap:VMAP>
