@@ -1,0 +1,15 @@
+#EXTM3U
+#-----------------------------------------------------------
+#--Created with VSPP Streamer version 7.0.1.0 build  Commit_id: c041f62eb44e91bbd3fcee4bbe654596a87d85c3 Commit_time: 1602402330 context 3457459765033049499
+#-----------------------------------------------------------
+#EXT-X-VERSION:5
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="AACL",NAME="audio_482_und",LANGUAGE="und",AUTOSELECT=YES,DEFAULT=YES,URI="http://stream3-vod.cdn1.yelo.sup.telenet-ops.be/shls/T00008062769/index.m3u8/S!d2ENSExTX0FMTF9QTEFJThICVP7...8BFgSf/Alter-audio_482_und(482)"
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=840832,CODECS="mp4a.40.2,avc1.42e01e",RESOLUTION=640x360,AUDIO="AACL"
+http://stream3-vod.cdn1.yelo.sup.telenet-ops.be/shls/T00008062769/index.m3u8/S!d2ENSExTX0FMTF9QTEFJThICVP7...8BFgSf/Level(840832)
+#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=87550,CODECS="avc1.42e01e",RESOLUTION=640x360,URI="http://stream3-vod.cdn1.yelo.sup.telenet-ops.be/shls/T00008062769/index.m3u8/S!d2ENSExTX0FMTF9QTEFJThICVP7...8BFgSf/Iframe(840832)"
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1151509,CODECS="mp4a.40.2,avc1.4d401e",RESOLUTION=704x396,AUDIO="AACL"
+http://stream3-vod.cdn1.yelo.sup.telenet-ops.be/shls/T00008062769/index.m3u8/S!d2ENSExTX0FMTF9QTEFJThICVP7...8BFgSf/Level(1151509)
+#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=159461,CODECS="avc1.4d401e",RESOLUTION=704x396,URI="http://stream3-vod.cdn1.yelo.sup.telenet-ops.be/shls/T00008062769/index.m3u8/S!d2ENSExTX0FMTF9QTEFJThICVP7...8BFgSf/Iframe(1151509)"
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1660315,CODECS="mp4a.40.2,avc1.4d401f",RESOLUTION=1024x576,AUDIO="AACL"
+http://stream3-vod.cdn1.yelo.sup.telenet-ops.be/shls/T00008062769/index.m3u8/S!d2ENSExTX0FMTF9QTEFJThICVP7...8BFgSf/Level(1660315)
+#EXT-X-I-FRAME-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=229834,CODECS="avc1.4d401f",RESOLUTION=1024x576,URI="http://stream3-vod.cdn1.yelo.sup.telenet-ops.be/shls/T00008062769/index.m3u8/S!d2ENSExTX0FMTF9QTEFJThICVP7...8BFgSf/Iframe(1660315)"
