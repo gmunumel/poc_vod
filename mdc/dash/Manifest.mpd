@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd dash-event-advertising.xsd" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:arrisAd="dash-event-advertising.xsd" type="static" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.006S" mediaPresentationDuration="PT0H2M44.88S">
+	<Period id="1" duration="PT0H0M30S">
+		<BaseURL>http://195.162.211.34/sdash/SBS-C068238/index.mpd/</BaseURL>
+		<EventStream schemeIdUri="urn:arrisAd:adEvent:2015" timescale="10000000">
+			<Event id="257" presentationTime="0">
+				<arrisAd:OpportunityStart>
+					<arrisAd:Payload type="tag" encoding="none" compression="none">PoStart="true"</arrisAd:Payload>
+				</arrisAd:OpportunityStart>
+			</Event>
+			<Event id="258" presentationTime="0">
+				<arrisAd:PlacementStart>
+					<arrisAd:Payload type="tag" encoding="none" compression="none">AdStart="true"</arrisAd:Payload>
+				</arrisAd:PlacementStart>
+			</Event>
+			<Event id="259" presentationTime="300000000">
+				<arrisAd:PlacementEnd>
+					<arrisAd:Payload type="tag" encoding="none" compression="none">AdEnd="true"</arrisAd:Payload>
+				</arrisAd:PlacementEnd>
+			</Event>
+			<Event id="260" presentationTime="300000000">
+				<arrisAd:OpportunityEnd>
+					<arrisAd:Payload type="tag" encoding="none" compression="none">PoEnd="true"</arrisAd:Payload>
+				</arrisAd:OpportunityEnd>
+			</Event>
+		</EventStream>
+		<AdaptationSet id="1" contentType="video" group="1" par="16:9" maxWidth="1920" maxHeight="1080" maxFrameRate="50" segmentAlignment="true" bitstreamSwitching="true" mimeType="video/mp4" startWithSAP="1">
+			<SegmentTemplate initialization="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(video=Init)" timescale="10000000" media="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(video=$Time$)" startNumber="0">
+				<SegmentTimeline>
+					<S t="0" d="20000000" r="14" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation id="dzEdNwaf" width="400" height="224" sar="224:225" frameRate="25" codecs="avc1.42e00d" bandwidth="407325" />
+			<Representation id="dzFqYgyf" width="640" height="360" sar="1:1" frameRate="25" codecs="avc1.42e01e" bandwidth="811626" />
+			<Representation id="dzGvGhGf" width="704" height="396" sar="1:1" frameRate="25" codecs="avc1.4d401e" bandwidth="1120943" />
+			<Representation id="dzFX4hif" width="1024" height="576" sar="1:1" frameRate="25" codecs="avc1.4d401f" bandwidth="1630807" />
+			<Representation id="dzFGSiuf" width="1280" height="720" sar="1:1" frameRate="25" codecs="avc1.4d401f" bandwidth="2837062" />
+			<Representation id="dzGdqkWf" width="1280" height="720" sar="1:1" frameRate="50" codecs="avc1.4d4020" bandwidth="4565661" />
+			<Representation id="dzEfCGyf" width="1920" height="1080" sar="1:1" frameRate="50" codecs="avc1.64002a" bandwidth="7079967" />
+		</AdaptationSet>
+		<AdaptationSet id="2" contentType="audio" group="2" lang="und" segmentAlignment="true" bitstreamSwitching="true" mimeType="audio/mp4">
+			<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+			<Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+			<SegmentTemplate initialization="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(audio_482_und=Init)" timescale="48000" media="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(audio_482_und=$Time$)" startNumber="0">
+				<SegmentTimeline>
+					<S t="3519" d="93184" />
+					<S t="96703" d="96256" />
+					<S t="192959" d="95232" />
+					<S t="288191" d="96256" r="2" />
+					<S t="576959" d="95232" />
+					<S t="672191" d="96256" r="2" />
+					<S t="960959" d="95232" />
+					<S t="1056191" d="96256" r="2" />
+					<S t="1344959" d="95232" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation id="dyHiAZ8." audioSamplingRate="48000" codecs="mp4a.40.2" bandwidth="128000" />
+		</AdaptationSet>
+	</Period>
+	<Period id="2" duration="PT0H1M44.88S">
+		<AssetIdentifier schemeIdUri="urn:org:dashif:asset-id:2013" />
+		<BaseURL>http://195.162.211.34/sdash/T00008087031/index.mpd/</BaseURL>
+		<AdaptationSet id="1" contentType="video" group="1" par="16:9" maxWidth="1920" maxHeight="1080" maxFrameRate="50" segmentAlignment="true" bitstreamSwitching="true" mimeType="video/mp4" startWithSAP="1">
+			<SegmentTemplate initialization="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(video=Init)" timescale="10000000" media="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(video=$Time$)" startNumber="0">
+				<SegmentTimeline>
+					<S t="0" d="20000000" r="51" />
+					<S t="1040000000" d="8800000" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation id="dzEMGwaf" width="400" height="224" sar="224:225" frameRate="25" codecs="avc1.42e00d" bandwidth="400140" />
+			<Representation id="dzFINQyf" width="640" height="360" sar="1:1" frameRate="25" codecs="avc1.42e01e" bandwidth="800072" />
+			<Representation id="dzHYyBCf" width="704" height="396" sar="1:1" frameRate="25" codecs="avc1.4d401e" bandwidth="1099992" />
+			<Representation id="dzEraxif" width="1024" height="576" sar="1:1" frameRate="25" codecs="avc1.4d401f" bandwidth="1600299" />
+			<Representation id="dzF_uiqf" width="1280" height="720" sar="1:1" frameRate="25" codecs="avc1.4d401f" bandwidth="2800255" />
+			<Representation id="dzE1q0Sf" width="1280" height="720" sar="1:1" frameRate="50" codecs="avc1.4d4020" bandwidth="4500277" />
+			<Representation id="dzGr5Wqf" width="1920" height="1080" sar="1:1" frameRate="50" codecs="avc1.64002a" bandwidth="7005611" />
+		</AdaptationSet>
+		<AdaptationSet id="2" contentType="audio" group="2" lang="und" segmentAlignment="true" bitstreamSwitching="true" mimeType="audio/mp4">
+			<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+			<Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+			<SegmentTemplate initialization="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(audio_482_und=Init)" timescale="48000" media="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(audio_482_und=$Time$)" startNumber="0">
+				<SegmentTimeline>
+					<S t="3520" d="93184" />
+					<S t="96704" d="96256" />
+					<S t="192960" d="95232" />
+					<S t="288192" d="96256" r="2" />
+					<S t="576960" d="95232" />
+					<S t="672192" d="96256" r="2" />
+					<S t="960960" d="95232" />
+					<S t="1056192" d="96256" r="2" />
+					<S t="1344960" d="95232" />
+					<S t="1440192" d="96256" r="2" />
+					<S t="1728960" d="95232" />
+					<S t="1824192" d="96256" r="2" />
+					<S t="2112960" d="95232" />
+					<S t="2208192" d="96256" r="2" />
+					<S t="2496960" d="95232" />
+					<S t="2592192" d="96256" r="2" />
+					<S t="2880960" d="95232" />
+					<S t="2976192" d="96256" r="2" />
+					<S t="3264960" d="95232" />
+					<S t="3360192" d="96256" r="2" />
+					<S t="3648960" d="95232" />
+					<S t="3744192" d="96256" r="2" />
+					<S t="4032960" d="95232" />
+					<S t="4128192" d="96256" r="2" />
+					<S t="4416960" d="95232" />
+					<S t="4512192" d="96256" r="2" />
+					<S t="4800960" d="95232" />
+					<S t="4896192" d="96256" />
+					<S t="4992448" d="41984" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation id="dyHiAZ8." audioSamplingRate="48000" codecs="mp4a.40.2" bandwidth="128000" />
+		</AdaptationSet>
+	</Period>
+	<Period id="3" duration="PT0H0M30S">
+		<BaseURL>http://195.162.211.34/sdash/SBS-C068238/index.mpd/</BaseURL>
+		<EventStream schemeIdUri="urn:arrisAd:adEvent:2015" timescale="10000000">
+			<Event id="513" presentationTime="0">
+				<arrisAd:OpportunityStart>
+					<arrisAd:Payload type="tag" encoding="none" compression="none">PoStart="true"</arrisAd:Payload>
+				</arrisAd:OpportunityStart>
+			</Event>
+			<Event id="514" presentationTime="0">
+				<arrisAd:PlacementStart>
+					<arrisAd:Payload type="tag" encoding="none" compression="none">AdStart="true"</arrisAd:Payload>
+				</arrisAd:PlacementStart>
+			</Event>
+			<Event id="515" presentationTime="300000000">
+				<arrisAd:PlacementEnd>
+					<arrisAd:Payload type="tag" encoding="none" compression="none">AdEnd="true"</arrisAd:Payload>
+				</arrisAd:PlacementEnd>
+			</Event>
+			<Event id="516" presentationTime="300000000">
+				<arrisAd:OpportunityEnd>
+					<arrisAd:Payload type="tag" encoding="none" compression="none">PoEnd="true"</arrisAd:Payload>
+				</arrisAd:OpportunityEnd>
+			</Event>
+		</EventStream>
+		<AdaptationSet id="1" contentType="video" group="1" par="16:9" maxWidth="1920" maxHeight="1080" maxFrameRate="50" segmentAlignment="true" bitstreamSwitching="true" mimeType="video/mp4" startWithSAP="1">
+			<SegmentTemplate initialization="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(video=Init)" timescale="10000000" media="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(video=$Time$)" startNumber="0">
+				<SegmentTimeline>
+					<S t="0" d="20000000" r="14" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation id="dzEdNwaf" width="400" height="224" sar="224:225" frameRate="25" codecs="avc1.42e00d" bandwidth="407325" />
+			<Representation id="dzFqYgyf" width="640" height="360" sar="1:1" frameRate="25" codecs="avc1.42e01e" bandwidth="811626" />
+			<Representation id="dzGvGhGf" width="704" height="396" sar="1:1" frameRate="25" codecs="avc1.4d401e" bandwidth="1120943" />
+			<Representation id="dzFX4hif" width="1024" height="576" sar="1:1" frameRate="25" codecs="avc1.4d401f" bandwidth="1630807" />
+			<Representation id="dzFGSiuf" width="1280" height="720" sar="1:1" frameRate="25" codecs="avc1.4d401f" bandwidth="2837062" />
+			<Representation id="dzGdqkWf" width="1280" height="720" sar="1:1" frameRate="50" codecs="avc1.4d4020" bandwidth="4565661" />
+			<Representation id="dzEfCGyf" width="1920" height="1080" sar="1:1" frameRate="50" codecs="avc1.64002a" bandwidth="7079967" />
+		</AdaptationSet>
+		<AdaptationSet id="2" contentType="audio" group="2" lang="und" segmentAlignment="true" bitstreamSwitching="true" mimeType="audio/mp4">
+			<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+			<Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+			<SegmentTemplate initialization="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(audio_482_und=Init)" timescale="48000" media="S!d2EOREFTSF9BTExfUExBSU4SAlT-....ARYEnw__/QualityLevels($Bandwidth$)/Fragments(audio_482_und=$Time$)" startNumber="0">
+				<SegmentTimeline>
+					<S t="3519" d="93184" />
+					<S t="96703" d="96256" />
+					<S t="192959" d="95232" />
+					<S t="288191" d="96256" r="2" />
+					<S t="576959" d="95232" />
+					<S t="672191" d="96256" r="2" />
+					<S t="960959" d="95232" />
+					<S t="1056191" d="96256" r="2" />
+					<S t="1344959" d="95232" />
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation id="dyHiAZ8." audioSamplingRate="48000" codecs="mp4a.40.2" bandwidth="128000" />
+		</AdaptationSet>
+	</Period>
+</MPD>
